@@ -1,0 +1,106 @@
+*, *:focus {
+	outline: none!important;
+}
+
+body {
+	direction: rtl;
+	text-align: right;
+	background: #E7E9ED;
+}
+
+p {
+	margin: 0;
+}
+
+
+.invoice-wrap {
+    margin: 15px auto;
+    padding: 70px;
+    max-width: 850px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+
+	font-family: 'Droid Arabic Kufi', sans-serif;
+	line-height: 22px;
+	font-size: 14px;
+}
+
+.invoice-head {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.invoice-head .invoice-logo {
+	float: right;
+}
+.invoice-head .invoice-logo img {
+	height: 100px;
+}
+.invoice-head .invoice-info {
+	float: left;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.invoice-head .invoice-info p {
+	line-height: 25px;
+	font-size: 15px;
+}
+.invoice-head .invoice-info p:first-child {
+	margin-bottom: 3px;
+}
+.invoice-wrap table {
+  
+	border: 1px solid #f5f5f5;
+}
+
+.invoice-wrap .table{
+    position: relative;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 0 0 20px;
+	border: 1px solid #ddd;
+}
+.invoice-wrap .table td {
+	min-width: 110px;
+}
+.invoice-wrap .table > tbody > tr > td:first-child,
+.invoice-wrap .table > tbody > tr > td:nth-child(3) {
+    background: #fafafa;
+}
+.invoice-ord > tbody > tr > td:nth-child(2),
+.invoice-ord > tbody > tr > td:nth-child(3),
+.invoice-ord > tbody > tr > td:nth-child(4){
+	font-weight: bold;
+}
+.invoice-wrap .table > tbody > tr > td{
+    padding: 12px 15px 12px 10px;
+    text-align: right;
+    vertical-align: middle;
+    background-color: #fdfdfd;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	color: #5e5b54;
+	line-height: 30px;
+}
+.invoice-wrap .table > tbody > tr:last-child > td{
+	border-bottom: none;
+}
+.invoice-wrap .invoice-info thead tr td b:last-child {
+	float: left;
+}
+.invoice-wrap .invoice-info tbody tr td {
+	width: 50%;
+}
+.invoice-wrap .invoice-ord > tbody > tr > td:first-child {
+	font-size: 15px;
+	line-height: 33px;
+}
+.invoice-ord > tbody > tr > td:first-child small{
+	display: block;
+	padding-right: 10px;
+	font-size: 13px;
+	line-height: 33px;
+}
